@@ -3,8 +3,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily:{
+      fontFamily: {
         gotham: ["Gotham Pro"]
+      },
+
+      spacing: {
+        '144': '32rem'
       }
     },
   },
