@@ -6,3 +6,18 @@ $(document).ready(function(){
 })
 
 
+
+
+const triggers = document.querySelectorAll('.menu-trigger');
+console.log(triggers);
+
+triggers.forEach((ele)=>{
+    ele.addEventListener('click',(e)=>{
+        e.preventDefault();
+        // ele.classList.toggle(' text-orange-600')
+        ele.classList.toggle('is-open')
+    })
+
+})
+
+
